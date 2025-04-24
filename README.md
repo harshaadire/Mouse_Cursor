@@ -18,18 +18,25 @@ Edit
 git clone https://github.com/your-username/eye-controlled-mouse.git
 cd eye-controlled-mouse
 
+
+
 # Step 2: Create and activate a virtual environment (optional but recommended)
 python -m venv venv
 venv\Scripts\activate   # Windows
 # source venv/bin/activate  # macOS/Linux
 
+
+
 # Step 3: Install dependencies
 pip install -r requirements.txt
+
+
 
 # Step 4: Run the script
 python eye_cursor.py
 🧠 How It Works
 Uses MediaPipe Face Mesh to track eye and iris position.
+
 
 Moves the cursor based on iris movement.
 
